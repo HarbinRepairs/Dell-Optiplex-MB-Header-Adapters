@@ -30,6 +30,8 @@ This kit is designed for the mid tower (not SFF or small form factor) desktops. 
 
 ### Installation Guide Video
 
+https://www.youtube.com/watch?v=3fb6-B5Ux_s
+
 [![Alt text](https://img.youtube.com/vi/3fb6-B5Ux_s/0.jpg)](https://www.youtube.com/watch?v=3fb6-B5Ux_s)
 
 
