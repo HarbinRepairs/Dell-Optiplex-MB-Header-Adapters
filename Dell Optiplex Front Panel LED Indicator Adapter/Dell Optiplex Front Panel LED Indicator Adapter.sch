@@ -1,0 +1,219 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 5D4CE0A3
+P 6000 3150
+F 0 "J1" H 6050 3667 50  0000 C CNN
+F 1 "MB Connector" H 6050 3576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 6000 3150 50  0001 C CNN
+F 3 "~" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 2850 0    50   Input ~ 0
+VCC
+Text GLabel 5800 2950 0    50   Input ~ 0
+HDD_LED
+Text GLabel 5800 3450 0    50   Input ~ 0
+LED1
+Text GLabel 5800 3550 0    50   Input ~ 0
+LED3
+Text GLabel 6300 3450 2    50   Input ~ 0
+LED2
+Text GLabel 6300 3550 2    50   Input ~ 0
+LED4
+NoConn ~ 6300 3250
+Text GLabel 5800 3050 0    50   Input ~ 0
+SENSE_JUMPER
+Text GLabel 5800 3250 0    50   Input ~ 0
+SENSE_JUMPER
+Text GLabel 5800 3350 0    50   Input ~ 0
+SENSE_JUMPER
+Text GLabel 6300 3150 2    50   Input ~ 0
+SENSE_JUMPER
+Text Notes 6350 3300 0    50   ~ 0
+Keyed Pin #10
+NoConn ~ 6300 3050
+NoConn ~ 6300 2950
+NoConn ~ 6300 2850
+NoConn ~ 5800 3150
+$Comp
+L Device:R R5
+U 1 1 5D4D8B6E
+P 6250 4050
+F 0 "R5" V 6150 4050 50  0000 C CNN
+F 1 "470" V 6250 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6180 4050 50  0001 C CNN
+F 3 "~" H 6250 4050 50  0001 C CNN
+	1    6250 4050
+	0    1    1    0   
+$EndComp
+Text GLabel 6600 4050 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	6050 4050 6100 4050
+$Comp
+L Device:LED D1
+U 1 1 5D4DA517
+P 7700 2800
+F 0 "D1" H 7693 3016 50  0000 C CNN
+F 1 "LED1" H 7693 2925 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7700 2800 50  0001 C CNN
+F 3 "~" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D4DA51D
+P 8050 2800
+F 0 "R1" V 7950 2800 50  0000 C CNN
+F 1 "470" V 8050 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 2800 50  0001 C CNN
+F 3 "~" H 8050 2800 50  0001 C CNN
+	1    8050 2800
+	0    1    1    0   
+$EndComp
+Text GLabel 7400 2800 0    50   Input ~ 0
+LED1
+Wire Wire Line
+	7400 2800 7550 2800
+Wire Wire Line
+	7850 2800 7900 2800
+$Comp
+L Device:LED D2
+U 1 1 5D4DB0F2
+P 7700 3150
+F 0 "D2" H 7693 3366 50  0000 C CNN
+F 1 "LED2" H 7693 3275 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7700 3150 50  0001 C CNN
+F 3 "~" H 7700 3150 50  0001 C CNN
+	1    7700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D4DB0F8
+P 8050 3150
+F 0 "R2" V 7950 3150 50  0000 C CNN
+F 1 "470" V 8050 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 3150 50  0001 C CNN
+F 3 "~" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 3150 7550 3150
+Wire Wire Line
+	7850 3150 7900 3150
+$Comp
+L Device:LED D3
+U 1 1 5D4DBB95
+P 7700 3500
+F 0 "D3" H 7693 3716 50  0000 C CNN
+F 1 "LED3" H 7693 3625 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7700 3500 50  0001 C CNN
+F 3 "~" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D4DBB9B
+P 8050 3500
+F 0 "R3" V 7950 3500 50  0000 C CNN
+F 1 "470" V 8050 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 3500 50  0001 C CNN
+F 3 "~" H 8050 3500 50  0001 C CNN
+	1    8050 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 3500 7550 3500
+Wire Wire Line
+	7850 3500 7900 3500
+$Comp
+L Device:LED D4
+U 1 1 5D4DC4DC
+P 7700 3850
+F 0 "D4" H 7693 4066 50  0000 C CNN
+F 1 "LED4" H 7693 3975 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7700 3850 50  0001 C CNN
+F 3 "~" H 7700 3850 50  0001 C CNN
+	1    7700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D4DC4E2
+P 8050 3850
+F 0 "R4" V 7950 3850 50  0000 C CNN
+F 1 "470" V 8050 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 3850 50  0001 C CNN
+F 3 "~" H 8050 3850 50  0001 C CNN
+	1    8050 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 3850 7550 3850
+Wire Wire Line
+	7850 3850 7900 3850
+Wire Wire Line
+	8200 3850 8300 3850
+Wire Wire Line
+	8300 3850 8300 3500
+Wire Wire Line
+	8200 2800 8300 2800
+Wire Wire Line
+	8200 3150 8300 3150
+Connection ~ 8300 3150
+Wire Wire Line
+	8300 3150 8300 2800
+Wire Wire Line
+	8200 3500 8300 3500
+Connection ~ 8300 3500
+Wire Wire Line
+	8300 3500 8300 3150
+Text GLabel 7400 3500 0    50   Input ~ 0
+LED3
+Text GLabel 7400 3850 0    50   Input ~ 0
+LED4
+Text GLabel 7400 3150 0    50   Input ~ 0
+LED2
+$Comp
+L Connector_Generic:Conn_02x01 J2
+U 1 1 5D4E63D9
+P 5750 4050
+F 0 "J2" H 5800 4267 50  0000 C CNN
+F 1 "HDD LED" H 5800 4176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5750 4050 50  0001 C CNN
+F 3 "~" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4050 6600 4050
+Text GLabel 5550 4050 0    50   Input ~ 0
+HDD_LED
+Text GLabel 8400 2800 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	8400 2800 8300 2800
+Connection ~ 8300 2800
+Text GLabel 6300 3350 2    50   Input ~ 0
+SENSE_JUMPER
+$EndSCHEMATC
