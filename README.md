@@ -26,7 +26,7 @@ Harbin Repairs is not affiliated with Dell in any way shape or form.
 
 ## Documentation
 
-This kit is designed for the mid tower (not SFF or small form factor) desktops. It allows you to connect standard PC case front panel headers to the Dell Optiplex 390, 3010, and 3020 motherboards. These are often used to build budget gaming PC’s using decommissioned office desktops and convert them to work with modern PC cases. WARNING! Connecting these adapters in the wrong orientation or on with the wrong models could result in damage to your motherboard. Do not use these adapters with models other than the ones mentioned above and make sure to check out our assembly video below.
+This kit is designed for the mid tower (not SFF or small form factor) desktops. It allows you to connect standard PC case front panel headers to the Dell Optiplex 390, 3010, and 3020 motherboards. These are often used to build budget gaming PC’s using decommissioned office desktops and convert them to work with modern PC cases. WARNING! Connecting these adapters in the wrong orientation or with the wrong models could result in damage to your motherboard. Do not use these adapters with models other than the ones mentioned above and make sure to check out our assembly video below.
 
 ### Installation Guide Video
 
