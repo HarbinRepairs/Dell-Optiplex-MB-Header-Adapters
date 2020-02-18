@@ -11,7 +11,7 @@ https://store.harbinrepairs.com/index.php/product/dell-5-6-pin-power-button-led-
 
 Get it on eBay:
 
-http://www.ebay.com/itm/264638815586
+https://www.ebay.com/itm/264638815586
 
 https://www.ebay.com/itm/264638806788
 
