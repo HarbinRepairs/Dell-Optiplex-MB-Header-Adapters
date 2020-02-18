@@ -2,6 +2,19 @@
 
 ![Adapters](images/adapters-all.jpg)
 
+Get it at our store:
+
+https://store.harbinrepairs.com/index.php/product/dell-optiplex-390-3010-3020-front-panel-header-adapter-3pc-kit/
+
+https://store.harbinrepairs.com/index.php/product/dell-5-6-pin-power-button-led-panel-adapter/
+
+
+Get it on eBay:
+
+http://www.ebay.com/itm/264638815586
+
+https://www.ebay.com/itm/264638806788
+
 ## License
 Harbin Repairs 2020
 Creative Commons Attribution ShareAlike 4.0
@@ -17,7 +30,8 @@ This kit is designed for the mid tower (not SFF or small form factor) desktops. 
 
 ### Installation Guide Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3fb6-B5Ux_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Alt text](https://img.youtube.com/vi/3fb6-B5Ux_s/0.jpg)](https://www.youtube.com/watch?v=3fb6-B5Ux_s)
+
 
 ### Compatibility
 
