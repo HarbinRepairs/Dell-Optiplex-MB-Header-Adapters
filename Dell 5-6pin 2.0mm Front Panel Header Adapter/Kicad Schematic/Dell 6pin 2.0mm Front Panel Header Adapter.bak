@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5D44D227
+P 4800 4000
+F 0 "J2" H 4850 4317 50  0000 C CNN
+F 1 "2.54mm Panel Header" H 4850 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4800 4000 50  0001 C CNN
+F 3 "~" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5D44F1CB
+P 4800 3150
+F 0 "J1" H 4850 3467 50  0000 C CNN
+F 1 "Dell Connector" H 4850 3376 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical" H 4800 3150 50  0001 C CNN
+F 3 "~" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 3900 0    50   Input ~ 0
+POWER_SW_A
+Text GLabel 5100 3900 2    50   Input ~ 0
+POWER_SW_B
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5D4534A0
+P 6850 3100
+F 0 "SW1" H 6850 3335 50  0000 C CNN
+F 1 "PWR_SW" H 6850 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 6850 3100 50  0001 C CNN
+F 3 "~" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 3100 2    50   Input ~ 0
+POWER_SW_A
+Wire Wire Line
+	7150 3100 7050 3100
+Text GLabel 6550 3100 0    50   Input ~ 0
+POWER_SW_A
+Wire Wire Line
+	6550 3100 6650 3100
+$Comp
+L Device:LED D1
+U 1 1 5D455C4E
+P 6850 3750
+F 0 "D1" H 6850 3500 50  0000 C CNN
+F 1 "PWR LED" H 6850 3600 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6850 3750 50  0001 C CNN
+F 3 "~" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	-1   0    0    1   
+$EndComp
+Text GLabel 6650 3750 0    50   Input ~ 0
+POWER_LED+
+Text GLabel 7050 3750 2    50   Input ~ 0
+POWER_LED-
+Wire Wire Line
+	7000 3750 7050 3750
+Wire Wire Line
+	6700 3750 6650 3750
+Text GLabel 4600 3250 0    50   Input ~ 0
+POWER_SW_B
+Text GLabel 4600 3150 0    50   Input ~ 0
+POWER_SW_B
+Text GLabel 5100 3250 2    50   Input ~ 0
+POWER_SW_A
+Text GLabel 4600 4100 0    50   Input ~ 0
+POWER_LED+
+Text GLabel 5100 4100 2    50   Input ~ 0
+POWER_LED-
+Text GLabel 4600 3050 0    50   Input ~ 0
+POWER_LED+
+Text GLabel 5100 3150 2    50   Input ~ 0
+POWER_LED-
+NoConn ~ 5100 3050
+Text GLabel 4600 4000 0    50   Input ~ 0
+DIAGNOSTIC_LED+
+Text GLabel 5100 4000 2    50   Input ~ 0
+DIAGNOSTIC_LED-
+Text GLabel 6650 3950 0    50   Input ~ 0
+DIAGNOSTIC_LED-
+$Comp
+L Device:LED D2
+U 1 1 5D469181
+P 6850 3950
+F 0 "D2" H 6850 3700 50  0000 C CNN
+F 1 "DIAG LED" H 6850 3800 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6850 3950 50  0001 C CNN
+F 3 "~" H 6850 3950 50  0001 C CNN
+	1    6850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3950 6700 3950
+Text GLabel 7050 3950 2    50   Input ~ 0
+DIAGNOSTIC_LED+
+Wire Wire Line
+	7000 3950 7050 3950
+$EndSCHEMATC

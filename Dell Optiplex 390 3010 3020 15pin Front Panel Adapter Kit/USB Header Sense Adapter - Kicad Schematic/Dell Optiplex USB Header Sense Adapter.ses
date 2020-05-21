@@ -1,0 +1,206 @@
+
+(session "Dell Optiplex Front Panel LED Indicator Adapter.ses"
+  (base_design "Dell Optiplex Front Panel LED Indicator Adapter.dsn")
+  (placement
+    (resolution um 10)
+    (component Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
+      (place J1 1624600 -888250 front 0)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical
+      (place J2 1560000 -888250 back 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.0-0)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +5V1
+        (wire
+          (path B.Cu 3500
+            1560000 -888250
+            1572253 -888250
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1572253 -888250
+            1572253 -892845
+            1580107 -900699
+            1592988 -900699
+            1605437 -888250
+            1624600 -888250
+          )
+        )
+      )
+      (net +5V2
+        (wire
+          (path B.Cu 3500
+            1650000 -888250
+            1637747 -888250
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1585400 -888250
+            1597653 -888250
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1597653 -888250
+            1609907 -875996
+            1635055 -875996
+            1637747 -878688
+            1637747 -888250
+          )
+        )
+      )
+      (net "USB1-"
+        (wire
+          (path F.Cu 3500
+            1624600 -913650
+            1612347 -913650
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1560000 -913650
+            1572253 -913650
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1572253 -913650
+            1572253 -909055
+            1580358 -900950
+            1599647 -900950
+            1612347 -913650
+          )
+        )
+      )
+      (net "USB2-"
+        (wire
+          (path B.Cu 3500
+            1650000 -913650
+            1637747 -913650
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1585400 -913650
+            1597653 -913650
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1597653 -913650
+            1609977 -901326
+            1630501 -901326
+            1637747 -908572
+            1637747 -913650
+          )
+        )
+      )
+      (net USB1+
+        (wire
+          (path F.Cu 3500
+            1624600 -939050
+            1612347 -939050
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1560000 -939050
+            1572253 -939050
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1572253 -939050
+            1572253 -934455
+            1580358 -926350
+            1599647 -926350
+            1612347 -939050
+          )
+        )
+      )
+      (net USB2+
+        (wire
+          (path B.Cu 3500
+            1650000 -939050
+            1637747 -939050
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1585400 -939050
+            1597653 -939050
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1597653 -939050
+            1610353 -951750
+            1630125 -951750
+            1637747 -944128
+            1637747 -939050
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 3500
+            1585400 -964450
+            1572253 -964450
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1560000 -964450
+            1572253 -964450
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1585400 -989850
+            1585400 -964450
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1650000 -964450
+            1624600 -964450
+          )
+        )
+        (wire
+          (path F.Cu 3500
+            1650000 -989850
+            1650000 -964450
+          )
+        )
+        (wire
+          (path B.Cu 3500
+            1585400 -964450
+            1624600 -964450
+          )
+        )
+      )
+    )
+  )
+)

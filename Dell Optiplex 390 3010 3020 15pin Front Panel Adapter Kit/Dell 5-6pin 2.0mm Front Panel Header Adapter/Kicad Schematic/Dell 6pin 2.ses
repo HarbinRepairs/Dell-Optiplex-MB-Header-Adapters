@@ -1,0 +1,169 @@
+
+(session "Dell 6pin 2.0mm Front Panel Header Adapter.ses"
+  (base_design "Dell 6pin 2.0mm Front Panel Header Adapter.dsn")
+  (placement
+    (resolution um 10)
+    (component Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical
+      (place J1 1610000 -990000 back 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
+      (place J2 1620000 -885000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.0-0)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net POWER_SW_A
+        (wire
+          (path F.Cu 3000
+            1650000 -970000
+            1650000 -959747
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1620000 -885000
+            1620000 -897003
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1620000 -897003
+            1616249 -897003
+            1607722 -905530
+            1607722 -915472
+            1615765 -923515
+            1625071 -923515
+            1632004 -930448
+            1632004 -941751
+            1650000 -959747
+          )
+        )
+      )
+      (net DIAGNOSTIC_LED+
+        (wire
+          (path F.Cu 3000
+            1645400 -935800
+            1645400 -923797
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1620000 -910400
+            1632003 -910400
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1632003 -910400
+            1632003 -914131
+            1641669 -923797
+            1645400 -923797
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1645400 -935800
+            1645400 -947803
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1630000 -970000
+            1630000 -959747
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1645400 -947803
+            1641944 -947803
+            1630000 -959747
+          )
+        )
+      )
+      (net "DIAGNOSTIC_LED-"
+        (wire
+          (path B.Cu 3000
+            1620000 -935800
+            1620000 -947803
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1620000 -947803
+            1616999 -947803
+            1599577 -965225
+            1599577 -979577
+            1610000 -990000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1621125 -935800
+            1620000 -935800
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1621125 -935800
+            1632003 -935800
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1645400 -910400
+            1645400 -922403
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1632003 -935800
+            1632003 -932069
+            1641669 -922403
+            1645400 -922403
+          )
+        )
+      )
+      (net POWER_SW_B
+        (wire
+          (path F.Cu 3000
+            1650000 -990000
+            1630000 -990000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1645400 -885000
+            1645400 -897003
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1645400 -897003
+            1649151 -897003
+            1660677 -908529
+            1660677 -979323
+            1650000 -990000
+          )
+        )
+      )
+    )
+  )
+)
