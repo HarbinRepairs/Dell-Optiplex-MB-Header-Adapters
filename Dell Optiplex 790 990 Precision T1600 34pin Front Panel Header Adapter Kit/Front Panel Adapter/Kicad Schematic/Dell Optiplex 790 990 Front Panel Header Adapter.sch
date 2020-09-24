@@ -1,0 +1,559 @@
+EESchema Schematic File Version 4
+LIBS:Dell Optiplex 790 990 Front Panel Header Adapter-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Front Panel Header Adapter For Dell Optiplex 790 & 990"
+Date "2020-03-05"
+Rev "1.0"
+Comp "Harbin Repairs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J7
+U 1 1 5E65070E
+P 8200 3600
+F 0 "J7" H 8250 4617 50  0000 C CNN
+F 1 "MOTHERBOARD_CONNECTOR" H 8250 4526 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x17_P2.00mm_Vertical" H 8200 3600 50  0001 C CNN
+F 3 "~" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5E655658
+P 4300 2850
+F 0 "J2" H 4300 3150 50  0000 C CNN
+F 1 "Conn_01x04" H 4100 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4300 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 5E6580A3
+P 5200 4250
+F 0 "J4" H 5250 3825 50  0000 C CNN
+F 1 "HDAUDIO_HEADER" H 5250 3916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5200 4250 50  0001 C CNN
+F 3 "~" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5E659996
+P 2500 4400
+F 0 "D4" H 2493 4616 50  0000 C CNN
+F 1 "LED" H 2493 4525 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2500 4400 50  0001 C CNN
+F 3 "~" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E659F18
+P 2200 3350
+F 0 "R2" V 2300 3350 50  0000 C CNN
+F 1 "470" V 2200 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 3350 50  0001 C CNN
+F 3 "~" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 3350 2    50   Input ~ 0
+LED1
+$Comp
+L Device:LED D3
+U 1 1 5E65DE28
+P 2500 4050
+F 0 "D3" H 2493 4266 50  0000 C CNN
+F 1 "LED" H 2493 4175 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2500 4050 50  0001 C CNN
+F 3 "~" H 2500 4050 50  0001 C CNN
+	1    2500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E65DE2E
+P 2200 3700
+F 0 "R3" V 2300 3700 50  0000 C CNN
+F 1 "470" V 2200 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 3700 50  0001 C CNN
+F 3 "~" H 2200 3700 50  0001 C CNN
+	1    2200 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 3700 2    50   Input ~ 0
+LED2
+$Comp
+L Device:LED D2
+U 1 1 5E65EB5F
+P 2500 3700
+F 0 "D2" H 2493 3916 50  0000 C CNN
+F 1 "LED" H 2493 3825 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2500 3700 50  0001 C CNN
+F 3 "~" H 2500 3700 50  0001 C CNN
+	1    2500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E65EB65
+P 2200 4050
+F 0 "R4" V 2300 4050 50  0000 C CNN
+F 1 "470" V 2200 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 4050 50  0001 C CNN
+F 3 "~" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 4050 2    50   Input ~ 0
+LED3
+$Comp
+L Device:LED D1
+U 1 1 5E65F644
+P 2500 3350
+F 0 "D1" H 2493 3566 50  0000 C CNN
+F 1 "LED" H 2493 3475 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2500 3350 50  0001 C CNN
+F 3 "~" H 2500 3350 50  0001 C CNN
+	1    2500 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E65F64A
+P 2200 4400
+F 0 "R5" V 2300 4400 50  0000 C CNN
+F 1 "470" V 2200 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 4400 2    50   Input ~ 0
+LED4
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E661B58
+P 2750 2850
+F 0 "J1" H 2830 2842 50  0000 L CNN
+F 1 "HDD_LED_CONNECTOR" H 2450 2950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2750 2850 50  0001 C CNN
+F 3 "~" H 2750 2850 50  0001 C CNN
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 2950 0    50   Input ~ 0
+HDD_LED
+$Comp
+L Device:R R1
+U 1 1 5E6696A3
+P 2200 2850
+F 0 "R1" V 2300 2850 50  0000 C CNN
+F 1 "470" V 2200 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5E66A73B
+P 1950 2750
+F 0 "#PWR0101" H 1950 2600 50  0001 C CNN
+F 1 "+5V" H 1965 2923 50  0000 C CNN
+F 2 "" H 1950 2750 50  0001 C CNN
+F 3 "" H 1950 2750 50  0001 C CNN
+	1    1950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4400 1950 4400
+Wire Wire Line
+	1950 4400 1950 4050
+Wire Wire Line
+	2050 3350 1950 3350
+Connection ~ 1950 3350
+Wire Wire Line
+	2050 3700 1950 3700
+Connection ~ 1950 3700
+Wire Wire Line
+	1950 3700 1950 3350
+Wire Wire Line
+	2050 4050 1950 4050
+Connection ~ 1950 4050
+Wire Wire Line
+	1950 4050 1950 3700
+Wire Wire Line
+	1950 2750 1950 2850
+Wire Wire Line
+	2050 2850 1950 2850
+Connection ~ 1950 2850
+Wire Wire Line
+	1950 2850 1950 3350
+Wire Wire Line
+	2350 2850 2550 2850
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5E654CCA
+P 4500 2950
+F 0 "J3" H 4450 3350 50  0000 L CNN
+F 1 "Conn_01x05" H 4100 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4500 2950 50  0001 C CNN
+F 3 "~" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4900 4050 0    50   Input ~ 0
+HEADPHONE_DET
+Text GLabel 4900 4250 0    50   Input ~ 0
+MIC_DET
+NoConn ~ 8000 3400
+Text GLabel 8000 3500 0    50   Input ~ 0
+HDD_LED
+Text GLabel 8000 3600 0    50   Input ~ 0
+USB_VCC4
+Text GLabel 8000 3800 0    50   Input ~ 0
+USB_D+_4
+Text GLabel 8000 3900 0    50   Input ~ 0
+USB_D+_3
+Text GLabel 8000 4400 0    50   Input ~ 0
+USB_VCC2
+Text GLabel 8000 4200 0    50   Input ~ 0
+USB_D-_1
+Text GLabel 8000 3200 0    50   Input ~ 0
+LED3
+Text GLabel 8000 3300 0    50   Input ~ 0
+LED1
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E68A57C
+P 9250 3050
+F 0 "#PWR0102" H 9250 2900 50  0001 C CNN
+F 1 "+5V" H 9265 3223 50  0000 C CNN
+F 2 "" H 9250 3050 50  0001 C CNN
+F 3 "" H 9250 3050 50  0001 C CNN
+	1    9250 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 3600 2    50   Input ~ 0
+USB_VCC3
+Text GLabel 8500 3700 2    50   Input ~ 0
+USB_D-_4
+Text GLabel 8500 3900 2    50   Input ~ 0
+USB_D-_3
+Text GLabel 8500 4000 2    50   Input ~ 0
+USB_D-_2
+Text GLabel 8500 4200 2    50   Input ~ 0
+USB_D+_1
+Text GLabel 8500 4400 2    50   Input ~ 0
+USB_VCC1
+Text GLabel 8500 3400 2    50   Input ~ 0
+LED2
+Text GLabel 8500 3300 2    50   Input ~ 0
+LED4
+Wire Wire Line
+	8500 3200 9250 3200
+Wire Wire Line
+	9250 3200 9250 3050
+Text GLabel 5400 4050 2    50   Input ~ 0
+HEADPHONE_L
+Text GLabel 5400 4250 2    50   Input ~ 0
+HEADPHONE_R
+Text GLabel 5400 4350 2    50   Input ~ 0
+MIC_R
+Text GLabel 5400 4450 2    50   Input ~ 0
+MIC_L
+NoConn ~ 4900 4150
+$Comp
+L power:GND #PWR0103
+U 1 1 5E6C1E78
+P 6050 4550
+F 0 "#PWR0103" H 6050 4300 50  0001 C CNN
+F 1 "GND" H 6055 4377 50  0000 C CNN
+F 2 "" H 6050 4550 50  0001 C CNN
+F 3 "" H 6050 4550 50  0001 C CNN
+	1    6050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4150 6050 4150
+Wire Wire Line
+	6050 4150 6050 4550
+$Comp
+L power:GND #PWR0104
+U 1 1 5E6C29C5
+P 4750 4550
+F 0 "#PWR0104" H 4750 4300 50  0001 C CNN
+F 1 "GND" H 4755 4377 50  0000 C CNN
+F 2 "" H 4750 4550 50  0001 C CNN
+F 3 "" H 4750 4550 50  0001 C CNN
+	1    4750 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4450 4750 4450
+Wire Wire Line
+	4750 4450 4750 4550
+Wire Wire Line
+	4900 4350 4750 4350
+Wire Wire Line
+	4750 4350 4750 4450
+Connection ~ 4750 4450
+Text GLabel 4100 2850 0    50   Input ~ 0
+USB_D-_1
+Text GLabel 4100 2950 0    50   Input ~ 0
+USB_D+_1
+Text GLabel 4100 2750 0    50   Input ~ 0
+USB_VCC1
+Text GLabel 4700 2750 2    50   Input ~ 0
+USB_VCC2
+Text GLabel 8000 4100 0    50   Input ~ 0
+USB_D+_2
+Text GLabel 4700 2950 2    50   Input ~ 0
+USB_D+_2
+Text GLabel 4700 2850 2    50   Input ~ 0
+USB_D-_2
+$Comp
+L power:GND #PWR0105
+U 1 1 5E6C6E5E
+P 3900 3200
+F 0 "#PWR0105" H 3900 2950 50  0001 C CNN
+F 1 "GND" H 3905 3027 50  0000 C CNN
+F 2 "" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E6C79AB
+P 4900 3200
+F 0 "#PWR0106" H 4900 2950 50  0001 C CNN
+F 1 "GND" H 4905 3027 50  0000 C CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3050 4900 3050
+Wire Wire Line
+	4900 3050 4900 3150
+Wire Wire Line
+	4700 3150 4900 3150
+Connection ~ 4900 3150
+Wire Wire Line
+	4900 3150 4900 3200
+Wire Wire Line
+	4100 3050 3900 3050
+Wire Wire Line
+	3900 3050 3900 3200
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5E6CC9FD
+P 6100 2850
+F 0 "J5" H 6100 3150 50  0000 C CNN
+F 1 "Conn_01x04" H 5900 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6100 2850 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5E6CCA03
+P 6300 2950
+F 0 "J6" H 6250 3350 50  0000 L CNN
+F 1 "Conn_01x05" H 5900 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6300 2950 50  0001 C CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E6CCA0F
+P 5700 3200
+F 0 "#PWR0107" H 5700 2950 50  0001 C CNN
+F 1 "GND" H 5705 3027 50  0000 C CNN
+F 2 "" H 5700 3200 50  0001 C CNN
+F 3 "" H 5700 3200 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E6CCA15
+P 6700 3200
+F 0 "#PWR0108" H 6700 2950 50  0001 C CNN
+F 1 "GND" H 6705 3027 50  0000 C CNN
+F 2 "" H 6700 3200 50  0001 C CNN
+F 3 "" H 6700 3200 50  0001 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3050 6700 3050
+Wire Wire Line
+	6700 3050 6700 3150
+Wire Wire Line
+	6500 3150 6700 3150
+Connection ~ 6700 3150
+Wire Wire Line
+	6700 3150 6700 3200
+Wire Wire Line
+	5900 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 3200
+$Comp
+L power:GND #PWR0109
+U 1 1 5E6F2F48
+P 9100 4500
+F 0 "#PWR0109" H 9100 4250 50  0001 C CNN
+F 1 "GND" H 9105 4327 50  0000 C CNN
+F 2 "" H 9100 4500 50  0001 C CNN
+F 3 "" H 9100 4500 50  0001 C CNN
+	1    9100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3100 9100 3100
+Wire Wire Line
+	9100 3100 9100 3500
+Wire Wire Line
+	8500 3800 9100 3800
+Connection ~ 9100 3800
+Wire Wire Line
+	9100 3800 9100 4100
+Wire Wire Line
+	8500 4100 9100 4100
+Connection ~ 9100 4100
+Wire Wire Line
+	9100 4100 9100 4300
+Wire Wire Line
+	8500 4300 9100 4300
+Connection ~ 9100 4300
+Wire Wire Line
+	9100 4300 9100 4500
+$Comp
+L power:GND #PWR0110
+U 1 1 5E6F5289
+P 7400 4500
+F 0 "#PWR0110" H 7400 4250 50  0001 C CNN
+F 1 "GND" H 7405 4327 50  0000 C CNN
+F 2 "" H 7400 4500 50  0001 C CNN
+F 3 "" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4500 7400 4300
+Wire Wire Line
+	7400 3100 8000 3100
+Wire Wire Line
+	8000 3700 7400 3700
+Connection ~ 7400 3700
+Wire Wire Line
+	7400 3700 7400 3100
+Wire Wire Line
+	8000 4000 7400 4000
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 7400 3700
+Wire Wire Line
+	8000 4300 7400 4300
+Connection ~ 7400 4300
+Wire Wire Line
+	7400 4300 7400 4000
+Text GLabel 8000 3000 0    50   Input ~ 0
+HEADPHONE_L
+Text GLabel 8500 3000 2    50   Input ~ 0
+HEADPHONE_R
+Text GLabel 8500 2800 2    50   Input ~ 0
+MIC_R
+Text GLabel 8000 2800 0    50   Input ~ 0
+MIC_L
+Text GLabel 8000 2900 0    50   Input ~ 0
+MIC_DET
+Text GLabel 8500 2900 2    50   Input ~ 0
+HEADPHONE_DET
+Text GLabel 6500 2750 2    50   Input ~ 0
+USB_VCC4
+Text GLabel 5900 2750 0    50   Input ~ 0
+USB_VCC3
+Text GLabel 6500 2850 2    50   Input ~ 0
+USB_D-_4
+Text GLabel 6500 2950 2    50   Input ~ 0
+USB_D+_4
+Text GLabel 5900 2950 0    50   Input ~ 0
+USB_D+_3
+Text GLabel 5900 2850 0    50   Input ~ 0
+USB_D-_3
+Wire Wire Line
+	8500 3500 9100 3500
+Connection ~ 9100 3500
+Wire Wire Line
+	9100 3500 9100 3800
+Text Notes 4100 2450 0    50   ~ 0
+USB Connector 1
+Text Notes 5850 2450 0    50   ~ 0
+USB Connector 2\n
+Text Notes 4850 3750 0    50   ~ 0
+HD Audio Connector
+Wire Notes Line
+	3600 2350 5200 2350
+Wire Notes Line
+	5200 2350 5200 3450
+Wire Notes Line
+	5200 3450 3600 3450
+Wire Notes Line
+	3600 3450 3600 2350
+Wire Notes Line
+	5400 2350 5400 3450
+Wire Notes Line
+	5400 3450 7000 3450
+Wire Notes Line
+	7000 3450 7000 2350
+Wire Notes Line
+	7000 2350 5400 2350
+Wire Notes Line
+	4200 3650 6200 3650
+Wire Notes Line
+	6200 3650 6200 4800
+Wire Notes Line
+	6200 4800 4200 4800
+Wire Notes Line
+	4200 4800 4200 3650
+Wire Notes Line
+	3300 2450 3300 4700
+Wire Notes Line
+	3300 4700 1800 4700
+Wire Notes Line
+	1800 4700 1800 2450
+Wire Notes Line
+	1800 2450 3300 2450
+Text Notes 2450 2550 0    50   ~ 0
+LED’s
+Wire Notes Line
+	7250 4750 9400 4750
+Wire Notes Line
+	9400 4750 9400 2350
+Wire Notes Line
+	9400 2350 7250 2350
+Wire Notes Line
+	7250 2350 7250 4750
+Text Notes 7900 2450 0    50   ~ 0
+Motherboard Connector
+$EndSCHEMATC
